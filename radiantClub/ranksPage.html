@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+##################################################
+Author: Marianna Hollanda Campos Pedroso
+Date: November 29, 2020
+Purpose: Final Project - Ranks Page
+Dependencies: None
+##################################################
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ranks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="./customCss/ranksPage.css" rel="stylesheet"/>
+    <link href="./customCss/main.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div id="container">
+    <div class="navbar">
+        <div class="flex-row nav-brand">
+            <img src="images/logo/radiantClubLogo.png" alt="Radiant Club Logo"/>
+            <h4>RADIANT CLUB</h4>
+        </div>
+        <div class="flex-row">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tournamentsPage.html">Tournaments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="theGamePage.html">The Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactPage.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="loginPage.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="createAccountPage.html">Create Account</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex-row">
+            <a class="play-button" href="playNowPage.html">Play Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="slider"></div>
+
+<div class="notes">
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-column" id="notes">
+                <h2>STAY CONNECTED FOR THE LATEST NEWS</h2>
+                <p>Do you want to be always informed about the radiant club updates?
+                    Enter your email to receive all the news.</p>
+            </div>
+            <div class="flex-column">
+                <form id="fNotes">
+                    <label>
+                        <input type="email" name="notes-email" placeholder="Type your e-mail"/>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="ranks">
+    <div class="container">
+        <div class="flex-column">
+            <h2>Ranks</h2>
+            <p>
+                Ranks are Match Making Rank (MMR) that players earn throughout playing Valorant. Ranks can only be
+                earned through the Ranked Mode playlist, Unranked Mode will not earn you any ranks.
+                Abandoning matches will lead to reduced progression and game restrictions. And decisive games where you
+                win many more rounds than your opponents will strongly affect your rank. Very close matches (such as a
+                13 - 12) will have a smaller impact on your rank.
+            </p>
+            <img src="./images/ranks/valorantRanks.jpg" alt="Valorant Ranks"/>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-column">
+                <h5>Pages</h5>
+                <div class="divise"></div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="tournamentsPage.html">Tournaments</a>
+                    </li>
+                    <li>
+                        <a href="theGamePage.html">The Game</a>
+                    </li>
+                    <li>
+                        <a href="contactPage.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-column">
+                <h5>Social Networks</h5>
+                <div class="divise"></div>
+                <div class="flex-row">
+                    <a><img src="images/icons/twitchIcon.jpg" alt="Twitch Icon"/></a>
+                    <a><img src="images/icons/discordIcon.jpg" alt="Discord Icon"/></a>
+                    <a><img src="images/icons/twitterIcon.jpg" alt="Twitter Icon"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

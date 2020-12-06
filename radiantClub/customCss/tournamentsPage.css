@@ -1,0 +1,51 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-10-31
+* Purpose: Store the classes that are contained on the "Tournaments" page.
+*/
+
+/* Table Style */
+#tournaments{
+    width: 100% !important;
+    margin: 10vh auto;
+}
+
+#tournaments h2{
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+}
+
+table{
+    border: 1px;
+    width: 50% !important;
+    margin: auto;
+}
+
+.table-status{
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+
+table thead{
+    font-family: "Consolas", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #F0F0F0;
+    width: 100%;
+    border: 1px solid darkgray;
+}
+
+table tbody{
+    font-family: "Consolas", sans-serif;
+    font-weight: 300;
+    border: 1px solid darkgray;
+}
+
+table tbody tr td{
+    padding: 1vh .8vw;
+}
+
+.darkgray{
+    background-color: #E3E2DC;
+}
+ 

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--
+##################################################
+Author: Marianna Hollanda Campos Pedroso
+Date: November 29, 2020
+Purpose: Final Project - Maps Page
+Dependencies: None
+##################################################
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maps</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="./customCss/mapsPage.css" rel="stylesheet"/>
+    <link href="./customCss/main.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div id="container">
+    <div class="navbar">
+        <div class="flex-row nav-brand">
+            <img src="images/logo/radiantClubLogo.png" alt="Radiant Club Logo"/>
+            <h4>RADIANT CLUB</h4>
+        </div>
+        <div class="flex-row">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tournamentsPage.html">Tournaments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="theGamePage.html">The Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactPage.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="loginPage.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="createAccountPage.html">Create Account</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex-row">
+            <a class="play-button" href="playNowPage.html">Play Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="slider"></div>
+
+<div class="notes">
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-column" id="notes">
+                <h2>STAY CONNECTED FOR THE LATEST NEWS</h2>
+                <p>Do you want to be always informed about the radiant club updates?
+                    Enter your email to receive all the news.</p>
+            </div>
+            <div class="flex-column">
+                <form id="fNotes">
+                    <label>
+                        <input type="email" name="notes-email" placeholder="Type your e-mail"/>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="maps">
+    <div class="container">
+        <div class="flex-column">
+            <div class="flex-row">
+                <img src="./images/maps/valorantAscentMap.jpg" alt="Ascent"/>
+                <div class="flex-column informations">
+                    <h3>ASCENT</h3>
+                    <p>
+                        An open playground for small wars of position and attrition divide two sites on Ascent.
+                        Each site can be fortified by irreversible bomb doors; once they’re down, you’ll have to destroy
+                        them or find another way. Yield as little territory as possible.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-column informations">
+                    <h3>BIND</h3>
+                    <p>
+                        Two sites. No middle. Gotta pick left or right. What’s it going to be then? Both offer direct
+                        paths for attackers and a pair of one-way teleporters make it easier to flank.
+                    </p>
+                </div>
+                <img src="./images/maps/valorantBindMap.jpg" alt="Bind"/>
+            </div>
+            <div class="flex-row">
+                <img src="./images/maps/valorantHavenMap.jpg" alt="Haven"/>
+                <div class="flex-column informations">
+                    <h3>HAVEN</h3>
+                    <p>
+                        Beneath a forgotten monastery, a clamour emerges from rival Agents clashing to control three
+                        sites.
+                        There’s more territory to control, but defenders can use the extra real estate for aggressive
+                        pushes.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-column informations">
+                    <h3>ICEBOX</h3>
+                    <p>
+                        Your next battleground is a secret Kingdom excavation site overtaken by the arctic. The two
+                        plant sites protected by snow and metal require some horizontal finesse.
+                        Take advantage of the ziplines and they’ll never see you coming.
+                    </p>
+                </div>
+                <img src="./images/maps/valorantIceboxMap.jpg" alt="Icebox"/>
+            </div>
+            <div class="flex-row">
+                <img src="./images/maps/valorantSplitMap.jpg" alt="Split"/>
+                <div class="flex-column informations">
+                    <h3>SPLIT</h3>
+                    <p>If you want to go far, you’ll have to go up. A pair of sites split by an elevated center allows
+                        for rapid movement using two rope ascenders.
+                        Each site is built with a looming tower vital for control. Remember to watch above before it all
+                        blows sky-high.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-column">
+                <h5>Pages</h5>
+                <div class="divise"></div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="tournamentsPage.html">Tournaments</a>
+                    </li>
+                    <li>
+                        <a href="theGamePage.html">The Game</a>
+                    </li>
+                    <li>
+                        <a href="contactPage.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-column">
+                <h5>Social Networks</h5>
+                <div class="divise"></div>
+                <div class="flex-row">
+                    <a><img src="images/icons/twitchIcon.jpg" alt="Twitch Icon"/></a>
+                    <a><img src="images/icons/discordIcon.jpg" alt="Discord Icon"/></a>
+                    <a><img src="images/icons/twitterIcon.jpg" alt="Twitter Icon"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

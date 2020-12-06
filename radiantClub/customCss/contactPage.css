@@ -1,0 +1,65 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-11-29
+* Purpose: Store the classes that are contained on the "Contact" page.
+*/
+
+/* Contact Style */
+#contact {
+    margin: 6vh 0;
+}
+
+#contact h2 {
+    font-family: "Russo One", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+#fContact {
+    width: 55%;
+    margin: 4vh auto;
+    position: relative;
+}
+
+#fContact input {
+    font-family: "Consolas", sans-serif;
+    border: 1px solid #9B9B9B;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1vw;
+    margin: .2vw .5vw;
+    width: 90%;
+}
+
+#fContact input[name=subject] {
+    margin: 0 .5vw;
+    width: 98%;
+}
+
+#fContact textarea {
+    border: 1px solid #9B9B9B;
+    border-radius: 5px;
+    width: 98%;
+    padding: 1vw;
+    margin: .4vw .5vw;
+}
+
+.align-streach {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.btn-submit {
+
+    background-color: #2AB53D;
+    border: none;
+    color: white;
+    font-family: "Consolas", sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 1.4vh 4vw;
+    margin: .5vw .5vw;
+}

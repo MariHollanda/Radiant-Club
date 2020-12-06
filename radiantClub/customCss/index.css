@@ -1,0 +1,47 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-10-31
+* Purpose: Store the classes that are contained on the "Index" page.
+*/
+
+#works {
+    margin: 6vh 0;
+}
+
+#works img {
+    width: 40vw;
+    height: 30vh;
+}
+
+#works h2 {
+    color: black;
+    margin: 0;
+    font-family: "Russo One", sans-serif;
+}
+
+#works p {
+    color: black;
+    margin: 0;
+    font-family: "Consolas", sans-serif;
+    font-size: 12px;
+}
+
+
+.division {
+    background-color: rgb(88, 88, 88, 0.18);
+    width: 100%;
+    height: 5px;
+}
+#valorantCarousel{
+    margin-top: 0;
+    z-index: 0;
+    margin-bottom: 5vh;
+}
+#valorantCarousel .carousel-inner .item img{
+    width: 100%;
+    height: 70vh;
+    z-index: 0;
+}
+#valorantCarousel .carousel-inner .item p{
+  font-family: "Russo One", sans-serif;
+}

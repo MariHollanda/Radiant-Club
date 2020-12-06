@@ -1,0 +1,60 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-12-4
+* Purpose: Store the classes that are contained on the "Create Account" page.
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Russo One", sans-serif;
+    color: #fff;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: url(../images/background/reynaBackground.png) center center;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px #000;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background: #0E8F88;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: "Consolas", sans-serif;
+}
+
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+}

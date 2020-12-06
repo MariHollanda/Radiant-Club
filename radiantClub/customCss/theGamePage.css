@@ -1,0 +1,54 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-10-31
+* Purpose: Store the classes that are contained on the "The Game" page.
+*/
+
+#game {
+    margin: 5vh 0 20vh 0;
+}
+
+#game h2 {
+    color: #545454;
+    font-family: "Russo One", sans-serif;
+    width: 160px;
+}
+
+#game .divise {
+    background-color: #FF4654;
+    width: 10%;
+}
+
+#game .flex-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.box {
+    position: relative;
+    width: 100%;
+    transform: scale(1);
+    transition: 0.5s;
+    margin-bottom: 10vh;
+}
+
+div.box:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+    z-index: 100;
+}
+
+div.box img {
+    width: 100%;
+    height: 300px;
+}
+
+div.box span {
+    position: absolute;
+    z-index: 20;
+    left: 10px;
+    bottom: 10px;
+    font-family: "Russo One", sans-serif;
+    color: white;
+}

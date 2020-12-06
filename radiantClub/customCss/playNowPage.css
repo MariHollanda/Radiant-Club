@@ -1,0 +1,55 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-10-31
+* Purpose: Store the classes that are contained on the "Play Now" page.
+*/
+
+#gamemode {
+    margin: 20vh 0 30vh 0;
+}
+
+#gamemode h2 {
+    color: #545454;
+    font-family: "Russo One", sans-serif;
+    width: 160px;
+    margin-bottom: 0;
+}
+
+#gamemode .divise {
+    background-color: #FF4654;
+    width: 10%;
+}
+
+#gamemode .flex-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+div.box:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+    z-index: 100;
+}
+
+div.box img {
+    width: 100%;
+    height: 100%;
+}
+
+div.box span {
+    position: absolute;
+    z-index: 20;
+    left: 5px;
+    bottom: 5px;
+    font-family: "Russo One", sans-serif;
+    color: white;
+}

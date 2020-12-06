@@ -1,0 +1,39 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-10-31
+* Purpose: Store the classes that are contained on the "Game Modes" page.
+*/
+
+#modes {
+    margin: 10vh 0 20vh;
+}
+
+#modes h2{
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#modes img {
+
+    width: 500px;
+    height: 300px;
+}
+
+.informations{
+    padding: 4vh 2vw;
+
+}
+
+.informations h3{
+    color: #545454;
+    font-family: "Russo One", sans-serif;
+    margin-bottom: 0px;
+}
+
+.informations p{
+    color: #545454;
+    font-family: "Consolas", sans-serif;
+}

@@ -1,0 +1,189 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-10-31
+* Purpose: Store the classes that are contained on all radiantClub project.
+*/
+
+#container {
+    width: 100%;
+    background-color: transparent;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    color: #707070;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    font-family: "Russo One", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-brand h4 {
+    font-size: 14px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 2vw 4vh;
+}
+
+.nav-item:hover,
+.nav-item:hover .nav-link {
+    background-color: #780C08;
+    cursor: pointer;
+    color: white;
+}
+
+
+.nav-link {
+    color: #707070;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.play-button {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: #780C08;
+    border: 1px solid #780C08;
+    padding: 1vh 3vw;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    border: 0;
+}
+
+.dropdown-menu li a {
+    padding: 10px;
+}
+
+.slider {
+    background-image: url(../images/slideNavImage.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70vh;
+    z-index: 1;
+}
+
+.notes {
+    z-index: 3;
+    margin-top: -6vh;
+    background-color: #0E8F88;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    padding: 6vh 0;
+}
+
+#notes h2 {
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+#notes p {
+    margin: 1vh 0;
+    color: white;
+    font-size: 12px;
+    font-family: "Consolas", sans-serif;
+    padding: 0 1vw 0 0;
+}
+
+#fNotes [name=notes-email] {
+    background-color: rgb(91, 91, 91, 0.40);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 25vw;
+    padding: 1.3vh 2.6vw;
+}
+
+#fNotes [name=notes-email]::placeholder {
+    color: white;
+    font-size: 11px;
+    font-family: "Consolas", sans-serif;
+}
+
+#fNotes [name=notes-email]:read-write {
+    font-family: "Consolas", sans-serif;
+    font-size: 11px;
+    color: white;
+}
+
+footer {
+    background-color: #67438A;
+    padding: 4vh 0;
+}
+
+footer div .flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer h5 {
+    margin: auto 0 0;
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .08rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Consolas", sans-serif;
+}
+
+footer a {
+    margin: 0 0.2vw;
+}
+
+footer a img {
+    width: 30px;
+    height: 30px;
+}
+
+footer div.flex-column div.flex-row {
+    justify-content: flex-start;
+}
+
+div.divise {
+    margin-bottom: 2vh;
+    background-color: white;
+    width: 90%;
+    height: 5px;
+}
+

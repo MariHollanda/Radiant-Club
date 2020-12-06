@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+##################################################
+Author: Marianna Hollanda Campos Pedroso
+Date: December 3rd, 2020
+Purpose: Final Project - Game Modes Page
+Dependencies: None
+##################################################
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Modes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="./customCss/gameModesPage.css" rel="stylesheet"/>
+    <link href="./customCss/main.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<div id="container">
+    <div class="navbar">
+        <div class="flex-row nav-brand">
+            <img src="images/logo/radiantClubLogo.png" alt="Radiant Club Logo"/>
+            <h4>RADIANT CLUB</h4>
+        </div>
+        <div class="flex-row">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tournamentsPage.html">Tournaments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="theGamePage.html">The Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactPage.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="loginPage.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="createAccountPage.html">Create Account</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex-row">
+            <a class="play-button" href="playNowPage.html">Play Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="slider"></div>
+
+<div class="notes">
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-column" id="notes">
+                <h2>STAY CONNECTED FOR THE LATEST NEWS</h2>
+                <p>Do you want to be always informed about the radiant club updates?
+                    Enter your email to receive all the news.</p>
+            </div>
+            <div class="flex-column">
+                <form id="fNotes">
+                    <label>
+                        <input type="email" name="notes-email" placeholder="Type your e-mail"/>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modes">
+    <div class="container">
+        <div class="flex-column">
+            <div class="flex-row">
+                <img src="./images/modes/standardMode.jpg" alt="Standard"/>
+                <div class="flex-column informations">
+                    <h3>STANDARD PLANT/DEFUSE</h3>
+                    <p>
+                        Plant/Defuse is a Gamemode where you play as an Attacker or a Defender, The Attacker objective
+                        is to plant the spike while the Defender objective is to prevent the Attacker to plant the
+                        spike. In this mode you will have the ability to open the shop, the shop is where you spend the
+                        creds that you get from killing the enemies, the creds will give you the ability to purchase
+                        Weapons, Shields and Abilities.
+                    </p>
+                    <p>
+                        - Ranked Gamemode is where you play competitively against other player to get your placement in
+                        the Valorant Ranks. This mode Last for 30-40 minutes.
+                    </p>
+                    <p>
+                        - Normal Gamemode is where you play Valorant for casually, or to test your skill without
+                        worrying about your Valorant rank placement. This mode Last for 30-40 minutes.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-column informations">
+                    <h3>SPIKE RUSH</h3>
+                    <p>
+                        Spike Rush is a Gamemode where you play Plant/Defuse Gamemodes casually with other players. In a
+                        round where you will get random weapons and random orbs that will buff you/your teammate or
+                        debuff your enemies.
+                    </p>
+                    <p>
+                        - This mode Last for 8-12 minutes.
+                    </p>
+                </div>
+                <img src="./images/modes/spikeRushMode.jpg" alt="Spike Rush"/>
+            </div>
+            <div class="flex-row">
+                <img src="./images/modes/deathmatchMode.jpg" alt="Deathmatch"/>
+                <div class="flex-column informations">
+                    <h3>DEATHMATCH</h3>
+                    <p>
+                        Deathmatch is a game mode where you will be placed with 14 different players in a randomly
+                        selected map, to test your skill with the gun of your choice from the shop.
+                    </p>
+                    <p>
+                        - This mode lasts for 9 minutes or until a player reaches 40 kills.
+                    </p>
+                    <p>
+                        - Abilities are disabled as agents are chosen automatically.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-column">
+                <h5>Pages</h5>
+                <div class="divise"></div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="tournamentsPage.html">Tournaments</a>
+                    </li>
+                    <li>
+                        <a href="theGamePage.html">The Game</a>
+                    </li>
+                    <li>
+                        <a href="contactPage.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-column">
+                <h5>Social Networks</h5>
+                <div class="divise"></div>
+                <div class="flex-row">
+                    <a><img src="images/icons/twitchIcon.jpg" alt="Twitch Icon"/></a>
+                    <a><img src="images/icons/discordIcon.jpg" alt="Discord Icon"/></a>
+                    <a><img src="images/icons/twitterIcon.jpg" alt="Twitter Icon"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

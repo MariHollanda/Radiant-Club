@@ -1,0 +1,43 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-10-31
+* Purpose: Store the classes that are contained on the theGamePage page.
+*/
+
+#agents {
+    margin: 10vh 0 20vh;
+}
+
+#agents h2{
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#agents img {
+
+    width: 500px;
+    height: 300px;
+}
+
+.informations{
+    padding: 4vh 2vw;
+
+}
+
+.informations h3{
+    color: #545454;
+    font-family: "Russo One", sans-serif;
+    margin-bottom: 0px;
+}
+
+.informations h4{
+    color: #545454;
+    font-family: "Russo One", sans-serif;
+    margin-bottom: 0px;
+}
+
+.informations p{
+    color: #545454;
+    font-family: "Consolas", sans-serif;
+}

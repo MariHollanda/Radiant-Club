@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--
+##################################################
+Author: Marianna Hollanda Campos Pedroso
+Date: November 30, 2020
+Purpose: Final Project - Tournaments Page
+Dependencies: None
+##################################################
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tournaments</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="./customCss/tournamentsPage.css" rel="stylesheet"/>
+    <link href="./customCss/main.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div id="container">
+    <div class="navbar">
+        <div class="flex-row nav-brand">
+            <img src="images/logo/radiantClubLogo.png" alt="Radiant Club Logo"/>
+            <h4>RADIANT CLUB</h4>
+        </div>
+        <div class="flex-row">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tournamentsPage.html">Tournaments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="theGamePage.html">The Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactPage.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="loginPage.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="createAccountPage.html">Create Account</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex-row">
+            <a class="play-button" href="playNowPage.html">Play Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="slider"></div>
+
+<div class="notes">
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-column" id="notes">
+                <h2>STAY CONNECTED FOR THE LATEST NEWS</h2>
+                <p>Do you want to be always informed about the radiant club updates?
+                    Enter your email to receive all the news.</p>
+            </div>
+            <div class="flex-column">
+                <form id="fNotes">
+                    <label>
+                        <input type="email" name="notes-email" placeholder="Type your e-mail"/>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tournaments">
+    <h2>Past Tournaments</h2>
+    <table class="table table-/* Navbar Style */status">
+        <thead>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Prize pool</th>
+            <th>Winner</th>
+            <th>Runner-up</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Gamers Club Ultimate #2</td>
+            <td>Sept. 25 to 27</td>
+            <td>$6,307</td>
+            <td>NOORG 2.0</td>
+            <td>Bottom Fraggers</td>
+        </tr>
+        <tr class="darkgray">
+            <td>Epulze Royal SEA Cup</td>
+            <td>Sept. 21 to 7</td>
+            <td>$25,000</td>
+            <td>Vision Strikers</td>
+            <td>Attack All Around</td>
+        </tr>
+        <tr>
+            <td>Rise of Valour</td>
+            <td>Sept. 22 to 24</td>
+            <td>$9,552</td>
+            <td>EXO Clan</td>
+            <td>Team Launch</td>
+        </tr>
+        <tr class="darkgray">
+            <td>BLAST</td>
+            <td>Sept. 11 to 13</td>
+            <td>$59,000</td>
+            <td>G2 Esports</td>
+            <td>FunPlus Phoenix</td>
+        </tr>
+        <tr>
+            <td>Pop Flash</td>
+            <td>Aug. 26 to 30</td>
+            <td>$50,000</td>
+            <td>Sentinels</td>
+            <td>Team Envy</td>
+        </tr>
+        <tr class="darkgray">
+            <td>LVL CLash 2</td>
+            <td>Aug. 28 to 29</td>
+            <td>$17,873</td>
+            <td>G2 Esports</td>
+            <td>Bonk</td>
+        </tr>
+        <tr>
+            <td>Cyber Games Arena Pacific Open</td>
+            <td>Aug. 17 to 23</td>
+            <td>$20,000</td>
+            <td>ahq Esports Club</td>
+            <td>Attack All Around</td>
+        </tr>
+        <tr class="darkgray">
+            <td>Allies Esports Odyssey</td>
+            <td>Aug. 11 to 16</td>
+            <td>$17,720</td>
+            <td>G2 Esports</td>
+            <td>FunPlus Phoenix</td>
+        </tr>
+        <tr>
+            <td>FaZe Clan Invitational</td>
+            <td>Aug. 6 to 9</td>
+            <td>$50,000</td>
+            <td>TSM</td>
+            <td>Sentinels</td>
+        </tr>
+        <tr class="darkgray">
+            <td>Mandatory.gg Cup</td>
+            <td>July 21 to Aug. 2</td>
+            <td>$17,772</td>
+            <td>G2 Esports</td>
+            <td>Bonk</td>
+        </tr>
+        <tr>
+            <td>RAGE Japan Tournament</td>
+            <td>Aug. 2</td>
+            <td>$47,655</td>
+            <td>Abolute JUPITER</td>
+            <td>SCARZ</td>
+        </tr>
+        <tr class="darkgray">
+            <td>ORDER Oceanic Open</td>
+            <td>July 18 to 26</td>
+            <td>$7,088</td>
+            <td>Team Launch</td>
+            <td>EXO Clan</td>
+        </tr>
+        <tr>
+            <td>PAX Arena Invitational</td>
+            <td>July 22 to 26</td>
+            <td>$25,000</td>
+            <td>Sentinels</td>
+            <td>Cloud 9</td>
+        </tr>
+        <tr class="darkgray">
+            <td>WePlay! Invitational</td>
+            <td>July 15 to 19</td>
+            <td>$50,000</td>
+            <td>G2 Esports</td>
+            <td>fish 123</td>
+        </tr>
+        <tr>
+            <td>Gamers Club Ultimate</td>
+            <td>July 17 to 19</td>
+            <td>$3,757</td>
+            <td>Gamelanders</td>
+            <td>Team oNe</td>
+        </tr>
+        <tr class="darkgray">
+            <td>Vitality European Open</td>
+            <td>July 10 to 12</td>
+            <td>$16,914</td>
+            <td>G2 Esports</td>
+            <td>Prodigy</td>
+        </tr>
+        <tr>
+            <td>GGTech VALORANT Invitational - LAN</td>
+            <td>June 28 to July 2</td>
+            <td>$2,500</td>
+            <td>Estral Esports</td>
+            <td>Timber Esports</td>
+        </tr>
+        <tr class="darkgray">
+            <td>GGTech VALORANT Invitational - LAS</td>
+            <td>June 28 to July 2</td>
+            <td>$2,500</td>
+            <td>Rebirth Esports</td>
+            <td>Undead Gaming</td>
+        </tr>
+        <tr>
+            <td>T1 x Nerd Street Gamers Showdown</td>
+            <td>June 26 to 28</td>
+            <td>$50,000</td>
+            <td>TSM</td>
+            <td>T1</td>
+        </tr>
+        <tr class="darkgray">
+            <td>Empire Play North Africa Invitational</td>
+            <td>June 26 to 28</td>
+            <td>$1,750</td>
+            <td>Divine Vendetta</td>
+            <td>Viboras</td>
+        </tr>
+        <tr>
+            <td>RAGE Invitational</td>
+            <td>June 20 to 21</td>
+            <td>$4,680</td>
+            <td>Absolute JUPITER</td>
+            <td>Lag Gaming</td>
+        </tr>
+        <tr class="darkgray">
+            <td>G2 Esports Invitational</td>
+            <td>June 19 to 21</td>
+            <td>$16,815</td>
+            <td>Team Mixwell</td>
+            <td>Team Draken</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="flex-row">
+            <div class="flex-column">
+                <h5>Pages</h5>
+                <div class="divise"></div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="tournamentsPage.html">Tournaments</a>
+                    </li>
+                    <li>
+                        <a href="theGamePage.html">The Game</a>
+                    </li>
+                    <li>
+                        <a href="contactPage.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-column">
+                <h5>Social Networks</h5>
+                <div class="divise"></div>
+                <div class="flex-row">
+                    <a><img src="images/icons/twitchIcon.jpg" alt="Twitch Icon"/></a>
+                    <a><img src="images/icons/discordIcon.jpg" alt="Discord Icon"/></a>
+                    <a><img src="images/icons/twitterIcon.jpg" alt="Twitter Icon"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

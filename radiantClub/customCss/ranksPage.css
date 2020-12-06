@@ -1,0 +1,21 @@
+/*
+* Author Name: Marianna Hollanda
+* Date: 2020-11-29
+* Purpose: Store the classes that are contained on the "Ranks" page.
+*/
+
+#ranks h2{
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#ranks p{
+    color: #545454;
+    font-family: "Consolas", sans-serif;
+
+}
+#ranks img {
+    width: 700px;
+    height: 400px;
+    margin: 20px auto 40px;
+}
